@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "WithMe Clinica",
+    "slug": "HeareMe_JS",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "icon": "./assets/img/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.giacomo93.HeareMe"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.giacomo93.HeareMe"
+    },
+    "web": {},
+    "splash": {
+      "image": "./assets/img/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0FA4DC"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Gilroy-Black.ttf",
+            "./assets/fonts/Gilroy-Thin.ttf"
+          ]
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "37604c98-c3ec-4896-830d-4e6a8468a71d"
+      }
+    }
+  }
+}

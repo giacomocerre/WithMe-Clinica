@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "561025647525",
+    "project_id": "hearme-34c77",
+    "storage_bucket": "hearme-34c77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561025647525:android:9788fa2d8b3e2df2a45e4c",
+        "android_client_info": {
+          "package_name": "com.giacomo93.HeareMe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561025647525-9bi13qpo2rvekgpq0hjqhj0pm6dqde55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.giacomo93.HeareMe",
+            "certificate_hash": "8d1cd7736d7badbed48165ac2dc1d3164ab41efc"
+          }
+        },
+        {
+          "client_id": "561025647525-lonc8aasn4hs5ricrhr4i85lo9012imo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.giacomo93.HeareMe",
+            "certificate_hash": "e7cc2014ba466d8d0b9045cbac18e8b072279e5d"
+          }
+        },
+        {
+          "client_id": "561025647525-gh5vjq77nnv5n1i9sb167pg6olkcrd4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9gzzqpsz-OhHdvEnroMblZIyeGTA-IA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561025647525-gh5vjq77nnv5n1i9sb167pg6olkcrd4q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "561025647525-hcdjgp9ptiqck8bigs9efh48ck73jp86.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.unipi.hearme"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
